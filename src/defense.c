@@ -5,7 +5,7 @@
 ** Login   <kellian.cipierre@epitech.eu>
 **
 ** Started on  Sat Feb  4 10:37:30 2017 Kellian CIPIERRE
-** Last update Fri Feb 17 09:53:24 2017 Alexandre Sachs
+** Last update Sat Dec 30 18:28:09 2017 Sachs Alexandre
 */
 
 #include "my.h"
@@ -27,6 +27,8 @@ int		defense(int enemy_pid, t_struct *maps)
 {
   t_position	position;
 
+  position.col = 0;
+  position.line = 0;
   my_printf("\nwaiting for enemy's attack...\n");
   position.col = sos(position.col, enemy_pid);
   position.line = sos(position.line, enemy_pid);
