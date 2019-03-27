@@ -1,34 +1,35 @@
-# navy
-Epitech, first year project.
+# Navy
 
-Goal of the project : game where you can fight against an other terminal (an other player). It is a naval battle game ! 
-It's coded in C and it works with signals. 
+### Goal
+##### The project : repoduce the naval battle game
+##### Game where you can fight against an other terminal (an other player).
 
-The first player will launch the game, the other will launch the game with de PID of the first one. 
-To play you have to enter the position of a case you want to attack (exemple : A3) the programm will tell you if it's a wrong position or if you touch or if you miss. Then the other player will play..............
+##### The first player will launch the game, the other will launch the game with de PID of the first one. 
+##### To play you have to enter the position of a case you want to attack (example : A3) the programm will tell you if it's a wrong position or if you hit or miss.
 
-...........--------> Until you finish, the player who win receive a message and the player who loose too.
+##### Then the other player will play.
+##### And so on...
 
-==== THE BONUS DIRECTORY ====
-I strongly recommand you to launch the game in the bonus direcotry where the game is made in NCURSES. It works the same but it's very nice !!!!!!!!!
+##### Until you finish ! The player who won receive a message and the player who loosed too.
 
-To compile : make.
 
-To recompile the project : make re.
+### Program compilation and launch:
+  ```sh
+        make
+```
+##### First Player
+  ```sh
+        ./navy (file with your map)
+```
+##### Scond Player
+  ```sh
+        ./navy (pid of the other player) (file with your positions)
+```
 
-To clean all : make fclean.
+***==== THE BONUS DIRECTORY ====***
+I strongly recommand you to launch the game in the bonus direcotry where the game is made in NCURSES.
+It works the same but it's very nice !!!
 
-To use it :
-
-first player : ./navy (file with your map)
-second player : ./navy (pid of the other player) (file with your positions)
-
-DON'T FORGET TO LAUNCH IT IN THE BONUS DIRECTORY, IT'S SO NICE !!!
-
-then the game will launch ! GOOD LUCK HAVE FUN !
-
-Group of the project :
---> Alexandre Sachs
---> Kellian Cipierre
-
-(Both in Epitech Bordeaux)
+#### Project realised by:
+- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Kellian Cipierre : [kellian.cipierre@epitech.eu](https://github.com/K6PIR)**
