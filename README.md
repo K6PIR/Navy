@@ -27,6 +27,7 @@
 ```
 
 ***==== THE BONUS DIRECTORY ====***
+
 I strongly recommand you to launch the game in the bonus direcotry where the game is made in NCURSES.
 It works the same but it's very nice !!!
 
