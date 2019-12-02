@@ -32,5 +32,5 @@ I strongly recommand you to launch the game in the bonus direcotry where the gam
 It works the same but it's very nice !!!
 
 #### Project realised by:
-- **Alexandre Sachs : [alexandre.sachs@epitech.eu](https://github.com/SachsA)**
+- **Alexandre Sachs : [alexandre.sachs@outlook.fr](https://github.com/SachsA)**
 - **Kellian Cipierre : [kellian.cipierre@epitech.eu](https://github.com/K6PIR)**
